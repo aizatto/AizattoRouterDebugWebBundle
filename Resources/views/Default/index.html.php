@@ -16,10 +16,15 @@
         </thead>
         <tbody>
           <?php foreach ($routes as $name => $route): ?> 
+            <?php $requirements = $route->getRequirements(); ?>
             <tr>
               <td><?php echo $name; ?></td>
               <td><?php echo isset($requirements['_method']) ? strtoupper(is_array($requirements['_method']) ? implode(', ', $requirements['_method']) : $requirements['_method']) : 'ANY'; ?></td>
-              <td><?php echo $route->getPattern(); ?></td>
+              <td>
+                <a href="<?php echo $route->getPattern(); ?>">
+                  <?php echo $route->getPattern(); ?>
+                </a>
+              </td>
             </tr>
           <?php endforeach; ?>
         </tbody>
