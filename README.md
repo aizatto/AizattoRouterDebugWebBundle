@@ -68,7 +68,7 @@ $loader->registerNamespaces(array(
 
 Add the necessary route.
 
-In app/config/config_dev.yml:
+In app/config/routing.yml:
 
 <pre>
 AizattoRouterDebugWebBundle:
