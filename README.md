@@ -19,7 +19,7 @@ You have two options to install the source code.
 Add into your deps file
 
 <pre>
-[AsseticBundle]
+[AizattoRouterDebugWebBundle]
      git=http://github.com/aizatto/AizattoRouterDebugWebBundle.git
      target=/bundles/Aizatto/Bundle/RouterDebugWebBundle
 </pre>
