@@ -20,7 +20,7 @@ Add into your deps file
 
 <pre>
 [AsseticBundle]
-     git=http://github.com/aizatto/RouterDebugWebBundle.git
+     git=http://github.com/aizatto/AizattoRouterDebugWebBundle.git
      target=/bundles/Aizatto/Bundle/RouterDebugWebBundle
 </pre>
 
@@ -36,7 +36,7 @@ Execute git submodule add command:
 
 <pre>
 git submodule add \
-  http://github.com/aizatto/RouterDebugWebBundle.git \
+  http://github.com/aizatto/AizattoRouterDebugWebBundle.git \
   vendor/bundles/Aizatto/Bundle/RouterDebugWebBundle
 </pre>
 
